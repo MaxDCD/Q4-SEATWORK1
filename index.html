@@ -12,6 +12,7 @@
 		
 		body {
 			background-color: black;
+			font-family: cursive;
 		}
 
 		.container {
@@ -23,18 +24,26 @@
 		text-align: center;
 		}
 
-		.money1 {
-			display: flex;
+		.center {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  width: 30%;
+		}
+
+		  .container-fluid {
+			text-align: center;
+			font-size: 200%;
+
 		}
 
 
 	</style>
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<br>
-		<br>
-		<br>
+
 
 		<h2 id="convert">
 
@@ -43,18 +52,19 @@
 			window.alert("Here to convert? Welcome!");
 		</script>
 
-	</h2>+
+	</h2></div>
 
 	<br>
 	<br>
-		<img src="https://steamuserimages-a.akamaihd.net/ugc/861734447427045614/E420C406ECA09D63A76189F732586A69B84F3E9F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" width="600" id="money1" alt="dollars falling">
+		<img src="https://steamuserimages-a.akamaihd.net/ugc/861734447427045614/E420C406ECA09D63A76189F732586A69B84F3E9F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" width="600" id="money1" alt="dollars falling" class="center">
 
 	<br>
-		<a href="page2">
+	<div class="container-fluid">
+		<a href="page3">
 			<button class="btn btn-success"> Dollars($) </button>
 		</a>
 
-		<a href="page3">
+		<a href="page2">
 			<button class="btn btn-danger"> Yen (¥) </button>
 		</a>
 	</div>
